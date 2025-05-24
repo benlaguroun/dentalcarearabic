@@ -6,49 +6,45 @@ const PublicAbout: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-blue-800 text-white py-16">
+      <section className="bg-blue-800 text-white py-16" dir="rtl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-6">About DentalCare Clinic</h1>
+            <h1 className="text-4xl font-bold mb-6">نبذة عن عيادة دنتال كير</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Providing quality dental care for families since 2005.
+              نقدم رعاية أسنان عالية الجودة للعائلات منذ عام 2005.
             </p>
           </div>
         </div>
       </section>
 
       {/* Our Story */}
-      <section className="py-16">
+      <section className="py-16" dir="rtl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:flex lg:items-center lg:gap-12">
             <div className="lg:w-1/2 mb-8 lg:mb-0">
               <img
                 src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1168&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Our Clinic"
+                alt="عيادتنا"
                 className="w-full h-auto rounded-lg shadow-md"
               />
             </div>
             <div className="lg:w-1/2">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                Our Story
-              </h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">قصتنا</h2>
               <p className="text-lg text-gray-600 mb-4">
-                DentalCare Clinic was founded in 2005 by Dr. Sarah Johnson with
-                a vision to provide exceptional dental care in a comfortable and
-                welcoming environment. What started as a small practice has
-                grown into a comprehensive dental center serving thousands of
-                patients in our community.
+                تأسست عيادة دنتال كير في عام 2005 على يد الدكتورة سارة جونسون،
+                برؤية تقديم رعاية أسنان استثنائية في بيئة مريحة ومرحبة. بدأت
+                كعيادة صغيرة وتطورت لتصبح مركزًا شاملاً يخدم آلاف المرضى في
+                مجتمعنا.
               </p>
               <p className="text-lg text-gray-600 mb-4">
-                Our mission is to improve the oral health of our patients
-                through preventive care, education, and personalized treatment
-                plans. We believe that a healthy smile contributes to overall
-                well-being and quality of life.
+                رسالتنا هي تحسين صحة الفم لمرضانا من خلال الرعاية الوقائية،
+                والتثقيف، وخطط العلاج الشخصية. نحن نؤمن بأن الابتسامة الصحية
+                تسهم في الرفاهية العامة وجودة الحياة.
               </p>
               <p className="text-lg text-gray-600">
-                Over the years, we've expanded our services and team to meet the
-                growing needs of our patients, but our commitment to providing
-                compassionate, high-quality care remains unchanged.
+                على مر السنين، قمنا بتوسيع خدماتنا وفريقنا لتلبية احتياجات
+                مرضانا المتزايدة، ولكن التزامنا بتقديم رعاية عالية الجودة ومبنية
+                على التعاطف لم يتغير.
               </p>
             </div>
           </div>
