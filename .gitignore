@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor folders
+.vscode/
+.idea/
+
+# Optional: local Supabase config (if you're using Supabase CLI)
+.supabase/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Lint & formatter
+.eslintcache
+
+# Others
+*.log
